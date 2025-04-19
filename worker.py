@@ -4,10 +4,11 @@ from ibm_watson_machine_learning.metanames import GenTextParamsMetaNames as GenP
 from ibm_watson_machine_learning.foundation_models.utils.enums import DecodingMethods
 import requests
 import json
-PROJECT_ID= "skills-network"
+PROJECT_ID= #Your Project ID
 
 credentials = {
     "url": "https://us-south.ml.cloud.ibm.com"
+    "apikey": #Your API Key
 }
     
 model_id = ModelTypes.FLAN_UL2
